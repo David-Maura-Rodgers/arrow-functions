@@ -1,3 +1,9 @@
+/**
+ * To run this file in Gitpod, use the 
+ * command node students-array-challenge.js in the terminal
+ */
+
+
 let students = [
     {
         name: 'John',
@@ -26,7 +32,7 @@ const averagePoints = (arr, subject) => {
     for(let itm of arr) {
       if(subject in itm.results) {
         allPoints += itm.results[subject];
-        sum+=1;
+        sum += 1;
       }
     }
     return allPoints / sum;
